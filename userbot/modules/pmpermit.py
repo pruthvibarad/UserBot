@@ -21,7 +21,7 @@ UNAPPROVED_MSG = ("`Hello`\n\n"
                   "`Instead, go to Google or` @CraBinz `and find solutions.`\n\n"
                   "`Trust me you will discover more than what you think...\n`"
                   "`Regards,`\n"
-                  "`Spyder :)`")
+                  "`Mafia :)`")
 # =================================================================
 
 

@@ -145,7 +145,7 @@ async def approvepm(apprvpm):
         try:
             approve(uid)
         except IntegrityError:
-            await apprvpm.edit("`This bsdka may already be approved.`")
+            await apprvpm.edit("`This user may already be approved.`")
             return
 
         await apprvpm.edit(
@@ -200,7 +200,7 @@ async def unblockpm(unblock):
     if not unblock.text[0].isalpha() and unblock.text[0] \
             not in ("/", "#", "@", "!") and unblock.reply_to_msg_id:
 
-        await unblock.edit("`Aye bc,my Master has forgiven you to PM now`")
+        await unblock.edit("`Aye ,my Master has forgiven you to PM now`")
 
         if unblock.reply_to_msg_id:
             reply = await unblock.get_reply_message()

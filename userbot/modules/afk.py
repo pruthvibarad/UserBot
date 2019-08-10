@@ -53,7 +53,7 @@ async def afk_on_pm(sender):
         if ISAFK:
             if sender.sender_id not in USERS:
                 await sender.reply(
-                    f"Abey,My boss is AFK due to `{AFKREASON}`."
+                    f"My sir is AFK due to `{AFKREASON}`."
                     "\nI'll ping him to look into the message soon 😉."
                 )
                 USERS.update({sender.sender_id: 1})

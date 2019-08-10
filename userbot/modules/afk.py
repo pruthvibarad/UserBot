@@ -24,7 +24,7 @@ async def mention_afk(mention):
         if ISAFK:
             if mention.sender_id not in USERS:
                 await mention.reply(
-                    f"My boss is AFK due to `{AFKREASON}`."
+                    f"My sir is AFK due to `{AFKREASON}`."
                     "\nDon't Disturb"
                 )
                 USERS.update({mention.sender_id: 1})
